@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "2209-munich"
+version = "0.1.0"
+description = ""
+authors = ["Filippo Vicentini <filippovicentini@gmail.com>"]
+readme = "README.md"
+packages = [{include = "2209_munich"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+netket = "^3.5.1"
+matplotlib = "^3.5.3"
+ipykernel = "^6.15.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
