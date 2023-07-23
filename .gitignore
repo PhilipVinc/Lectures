@@ -2,12 +2,21 @@
 __pycache__/
 *.py[cod]
 *$py.class
+netket.egg-info/
+pip-wheel-metadata
+.ipynb_checkpoints
+.pytest_cache
+.mypy_cache
+.virtual_documents
+oldest_requirements.txt
 
 .mpack
 .DS_STORE
 
 # C extensions
 *.so
+
+
 
 # Distribution / packaging
 .Python
