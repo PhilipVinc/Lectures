@@ -1,0 +1,19 @@
+[project]
+name = "nqs-ising-tutorial"
+version = "0.1.0"
+description = "NQS tutorial: the 2D transverse-field Ising transition with NetKet"
+authors = [{ name = "Filippo Vicentini", email = "filippo.vicentini@polytechnique.edu" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "netket>=3.22.2",
+    "nqxpack",
+    "matplotlib",
+]
+
+[tool.hatch.build.targets.wheel]
+include = ["ansatze.py"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
