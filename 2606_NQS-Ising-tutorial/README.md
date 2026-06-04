@@ -1,6 +1,8 @@
 # NQS tutorial: the 2D Ising transition
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PhilipVinc/Lectures/blob/main/2606_NQS-Ising-tutorial/ising_nqs_exercise.ipynb)
+- Application: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PhilipVinc/Lectures/blob/main/2606_NQS-Ising-tutorial/application.ipynb)
+- Implement 1: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PhilipVinc/Lectures/blob/main/2606_NQS-Ising-tutorial/implement-1.ipynb)
+- Implement 2: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PhilipVinc/Lectures/blob/main/2606_NQS-Ising-tutorial/implement-2.ipynb)
 
 A hands-on tutorial using Neural Quantum States (NQS) with
 [NetKet](https://www.netket.org/) to study the ground state of the 2D
